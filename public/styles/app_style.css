@@ -1,0 +1,58 @@
+:root {
+    --bgcolor : rgb(228, 253, 241);
+    --navColor : rgb(144, 169, 247);
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 32rem;
+}
+h1{
+    font-size: 23rem;
+}
+.navbar-light{
+    background-color:var(--navColor);
+    width: 100%;
+}
+.upperSection{
+    padding-top: 2vh;
+    position: relative;
+    width: 100%;
+    height: 42vh;
+    background-color: rgb(245, 237, 236);
+}
+.middleSection{
+    position: relative;
+    max-width: 100%;
+    height: 29vh;
+    background-color: seagreen;
+}
+.bottomSection{
+    position: relative;
+    width: 100%;
+    height: 41vh;
+    background-color: salmon;
+}
+.heading{
+    position: absolute;
+    width: 60vw;
+    height: 10vh;
+}
+.align{
+    position: absolute;
+    max-width: 50%;
+}
+.identity{
+    position: absolute;
+    bottom: 46%;
+}
+#regImg{
+    margin-top: 3%;
+    position: absolute;
+    top: 23vh;
+    right: 34vw;
+}
